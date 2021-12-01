@@ -104,7 +104,7 @@ async function handleSignOut() {
     getTopGames();
     getUserFollowedStreams();
   }, [])
-
+  
   return (
     <Container
       from={{
